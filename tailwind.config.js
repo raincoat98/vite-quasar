@@ -1,6 +1,5 @@
 export default {
   darkMode: "class",
-  prefix: "tw-", // Tailwind 클래스에 'tw-' 접두어 추가
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -9,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
+        twPrimary: {
           DEFAULT: "#6F61C0", // 기본 primary 색상
           50: "#F3F2FA", // 가장 밝은 톤
           100: "#E1DCF6",
